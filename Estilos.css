@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Metodo normal sin grid*/
+
+.header{
+    display: flex;
+}
+
+.header div:nth-child(1){
+    width: 30%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+}
+
+.header div:nth-child(2){
+    width: 70%;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+}
+
+.header__titulo{
+    color: white;
+}
+
+.hero{
+    background-color: royalblue;
+    height: 400px;
+}
+
+.hero__titulo{
+    text-align: center;
+    line-height: 400px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu__div1{
+    width: 50%;
+    height: 250px;
+    background-color: gray;
+}
+
+.menu__div2{
+    width: 25%;
+    height: 250px;
+    background-color: whitesmoke;
+}
+
+.menu__div3{
+    width: 25%;
+    height: 250px;
+}
+
+.menu__div3 div:nth-child(1){
+    height: 125px;
+    background-color: lightblue;
+}
+
+.menu__div3 div:nth-child(2){
+    height: 125px;
+    background-color: lightgreen;
+}
+
+.menu__divsh1{
+    line-height: 250px;
+    text-align: center;
+    color: white;
+}
+
+.menu__div3h1{
+    line-height: 125px;
+    text-align: center;
+}
+
+.footer{
+    height: 150px;
+    background-color: goldenrod;
+}
+
+.footer__titulo{
+    text-align: center;
+    line-height: 150px;
+}
